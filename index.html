@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmah's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc3ff30649.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="images/logo.png" class="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWARE DEVELOPER</p>
+            <h1>Hi, I'm <span>Asmah</span><br>Emmanuel from GHANA</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://lh3.googleusercontent.com/VB4bwyjllsQdKQfGbrVBkniVgEiKbtRNrr3bP3o71zjvJMU6O-2cVW3EjEjbcVBpi4QyD37i1b0xj8SyQEYSiEmldDSSxq_07d-PX5zqd-ecrV1nDyFMfkGFrzvV-rRe5nhMU6l7lOor9SbglxJe1FmK5wVUjZU7gEqEAjl9iGjAr-rF8yrA9ngYicyJ0Muy1HYLDXXMNFqpIxGn5iz0bjkeVc5mY33P-BCAZB8IZdKRSsENXC_qRAlMjY7ccW8yJTMz9rqfWU_ZWBuH4YM_rj5qTezV9YG-Eh1qfXmoXFV202OHjEBv-NHMApkMZBiV8XFhI1uad3LB2F1kvpVo5FhemyURWNxrncR1Xa-WrgUAJyX_4uh0oSa-KLsfTpEQxhOfVw3rXjp5aJBNG8wy3qimEHiWqFuoc23xbt5lczaclIvGCYDZQCl6hub6Z6wvrhIAID76sk36MzjxD3SYx9_u8H8qDUanFfHDMrBPjWSBsdL_c5OGQHu4LKQQT7o-mGo8Tjqlk_4jFb4pzbvrTvjq5zE89gnUlmXFkPVOcWOP03Vm6QkElXFlNB-TsggNVlhGBCplcrKz2Vv6KBDNszNIYq6LIFDdu3MmzCKy2KL8vlG3w4r4f5qSlxEO6w1A5i5EK1EgBUCluIOr-TXxC2haLQmOSmOL8Yu9OLqop_o5pmlt5Gr1F4wsjDpUH-rL7scfYjom2MU799xQsFb_ZltvgKfUuQRIUJcopEB3Qhr6YYqX9p1HvT48ghWvhwGoj8XxrmRB-f62xiDs-mHefNnWKLe_Jw=w647-h625-no?authuser=0">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello World! I am Emmanuel Asmah, a Gospel Music Minister and a Front-End Web Developer based in Ghana. I combine the worlds
+                of logic and creative design to make user-friendly web applications. Check out my works, stay blessed.
+                </p><br/><hr/><br/>
+                <p>Technology leads, I am excited to make the leap and continue refining my skills to suite all aspect.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2018 - 2021</span><br>Science (Elective ICT) at St. Augustine's College, Ghana.</li>
+                        <li><span>2022 - current</span><br>IT Personnel at Devpod Services (The Accra Handyman)</li>
+                        <li><span>2022</span><br>Internship at Devpod Services (The Accra Handyman)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>Science (Elective ICT) at St. Augustine's College, Ghana.</li>
+                        <li><span>2022</span><br>Softawre Development at Code Coast (PreMest), Ghana.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As a Web designer, I plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, 
+                graphics and video clips. I create the design and layout of a website or web pages. Also, working on a brand 
+                new website or updating an already existing site.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>Web Maintenance</h2>
+                <p>Website maintenance is a must and as such, I monitor the process of website for faults regularly and 
+                ensure that everything is fully updated and responsive. This is done on regular basis 
+                in order to keep the website fresh, secure, and reliable.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire"></i>
+                <h2>Web Hosting</h2>
+                <p>I use good hosting service that enables me to publish the website or web application on the internet. 
+                Signing up for a web hosting service, you basically rent some space on a physical server where you can store all the files 
+                and data necessary for your website to work properly.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------portfolio------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/5a/bf/38/5abf385b-e7c8-8c1b-75c4-88e409ffe50f/00eb7943-409e-4da0-9273-c6f1caecb16c_Artboard_1_copy_3.png/1000x1000bb.png">
+                <div class="layer">
+                    <h3>Movies App</h3>
+                    <p>The web app gives you complete overview of all kinds of 
+                    American Movies in the World</p>
+                    <a href="https://asmahmoviesworld.netlify.app"><i class="fa-solid fa-clapperboard"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://render.fineartamerica.com/images/rendered/default/phone-case/iphone13/images/artworkimages/medium/2/nope-funny-definition-iii-funny-dictionary-meaning-minimal-modern-typography-print-studio-grafiikka-transparent.png?&targetx=108&targety=361&imagewidth=714&imageheight=858&modelwidth=902&modelheight=1581&backgroundcolor=000000&orientation=0">
+                <div class="layer">
+                    <h3>Open Dictionary</h3>
+                    <p>GoWords Ghana is an open dictionary for everyone. Individuals get to look for 
+                    their preferred words which also give examples</p>
+                    <a href="https://gowordsghana.netlify.app"><i class="fa-solid fa-spell-check"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.pinimg.com/736x/87/c3/f0/87c3f06ad9a33ee97c2bf6e22e41a99a--budget-planner-planners.jpg">
+                <div class="layer">
+                    <h3>Expense Budget Tracker</h3>
+                    <p>The web app makes creating of new Projects and adding expense simpler. I built something like this 
+                    for the company I did my internship
+                    </p>
+                    <a href="https://theaccrahandyman.netlify.app"><i class="fa-solid fa-money-bill-trend-up"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://asmahsings.blogspot.com" class="btn">My blog</a>
+    </div>
+</div>
+<!-- --------------------contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>em1asmah@gmail.com</p>
+                <p>+233553075803</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/message/ZC7NFM371ZGQC1"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/asmahsings"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://t.me/asmahsings"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © 2022 ASMAH</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7V6-E3VXsDEppGr0vswjnU3hj_kl5yw_JxaAXQ3Bo6X4xuKiYyJVgE0rhpXsoi7Qs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
